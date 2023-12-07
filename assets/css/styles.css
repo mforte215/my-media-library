@@ -1,0 +1,21 @@
+.Media-Search {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}   
+
+label[for="select-media"] {
+    position: absolute;
+    top: 120%;
+    right: 67%; 
+}
+
+#media-type {
+    position: absolute;
+    top: 123%;
+    right: 40%; 
+}
+
+
+
+
