@@ -11,7 +11,7 @@
 
 <body>
     <header>
-        <nav class="navbar" role="navigation" aria-label="main navigation">
+        <nav class="navbar navbar-custom" role="navigation" aria-label="main navigation">
             <div class="navbar-brand">
                 <a class="navbar-item" href="https://bulma.io">
                     <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
@@ -24,16 +24,31 @@
                 </a>
             </div>
             <div class="navbar-menu">
-                <div class="navbar-start">
-
-                </div>
-
                 <div class="navbar-end">
-
+                    <a class="navbar-item is-hoverable" href="#books">
+                        Books
+                    </a>
+                    <a class="navbar-item is-hoverable" href="#movies">
+                        Movies
+                    </a>
                 </div>
             </div>
         </nav>
     </header>
+
+
+    <div class="Media-Search">
+        <h1>My Media Favorites</h1>
+        <label for="media-input">Title</label>
+        <input type = "text" id="media-input" placeholder="Enter Title">
+        <label for="select-media">Media Type</label>
+        <select name="select-media" id="media-type">
+            <option value="Movies">Movies</option>
+            <option value="Books">Books</option>
+            <br><br>
+        </select>
+        <button id="search-button">Search</button>
+    </div>
 
     <section class="favorites">
         <div class="container">

@@ -1,3 +1,4 @@
+
 .favorites {
   background-color: #f5f5f5;
   padding: 40px;
@@ -76,4 +77,26 @@
 
 .remove-btn:hover {
   background-color: #d63030;
+}
+
+.navbar-custom {
+  width: 100%;
+}
+
+.Media-Search {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}   
+
+label[for="select-media"] {
+    position: absolute;
+    top: 120%;
+    right: 67%; 
+}
+
+#media-type {
+    position: absolute;
+    top: 123%;
+    right: 40%; 
 }
