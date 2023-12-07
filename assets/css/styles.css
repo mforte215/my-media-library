@@ -1,0 +1,79 @@
+.favorites {
+  background-color: #f5f5f5;
+  padding: 40px;
+}
+
+.favorite-movies {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 15px;
+}
+
+.favorites-list {}
+
+.container {}
+
+.favorite-movies-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.favorite-movie-list {}
+
+.favorite-movie-item {
+  display: flex;
+  align-items: center;
+}
+
+.favorite-movie-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.favorite-movie-item {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+}
+
+.favorite-movie-details {
+  display: flex;
+  align-items: center;
+}
+
+.favorite-movie-poster {
+  width: 120px;
+  height: 200px;
+  margin-right: 20px;
+}
+
+.favorite-movie-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  color: black;
+}
+
+.favorite-movie-year {
+  font-size: 18px;
+  color: #888;
+  margin: 5px 10px;
+}
+
+.remove-btn {
+  padding: 8px 16px;
+  background-color: #ff3b3b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color .3s ease;
+}
+
+.remove-btn:hover {
+  background-color: #d63030;
+}
