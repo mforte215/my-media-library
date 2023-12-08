@@ -11,64 +11,49 @@
   padding: 40px;
 }
 
-.favorite-movies {
+.favorite-list {
   margin: 0 auto;
   max-width: 1200px;
   padding: 0 15px;
 }
 
-.favorites-list {
-}
-
-.container {
-}
-
-.favorite-movies-title {
+.favorite-item-title {
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 20px;
   color: #333;
 }
 
-.favorite-movie-list {
-}
-
-.favorite-movie-item {
+.favorite-item {
   display: flex;
   align-items: center;
 }
 
-.favorite-movie-list {
+.favorite-list {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.favorite-movie-item {
-  margin-bottom: 30px;
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 20px;
-}
-
-.favorite-movie-details {
+.favorite-item-details {
   display: flex;
   align-items: center;
 }
 
-.favorite-movie-poster {
+.favorite-item-poster {
   width: 120px;
   height: 200px;
   margin-right: 20px;
 }
 
-.favorite-movie-title {
+.favorite-item-title {
   font-size: 24px;
   font-weight: bold;
   margin: 0;
   color: black;
 }
 
-.favorite-movie-year {
+.favorite-item-year {
   font-size: 18px;
   color: #888;
   margin: 5px 10px;
@@ -121,33 +106,43 @@
   margin-right: 20%;
   border-radius: 12px;
   box-shadow: 0.25px 0.25px 5px black;
+  <<<<<<< HEAD
+}
+
+=======
 }
 
 #media-input {
-    font-size: 25px; /* Adjust the font size as needed */
-    width: 300px;    /* Adjust the width as needed */
-    height: 40px;
+  font-size: 25px;
+  /* Adjust the font size as needed */
+  width: 300px;
+  /* Adjust the width as needed */
+  height: 40px;
 }
 
 #media-type {
-    width: 200px; /* Adjust the width as needed */
-    height: 40px; /* Adjust the height as needed */
-    font-size: 25px; /* Adjust the font size as needed */
+  width: 200px;
+  /* Adjust the width as needed */
+  height: 40px;
+  /* Adjust the height as needed */
+  font-size: 25px;
+  /* Adjust the font size as needed */
 }
 
 #search-button {
-    padding: 8px 16px;
-    background-color: #ff3b3b;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+  padding: 8px 16px;
+  background-color: #ff3b3b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 #search-button:hover {
-    background-color: #d63030;
+  background-color: #d63030;
 }
 
 
+>>>>>>>e3060c94d29cb49bdd41d008150e196998cb680b
