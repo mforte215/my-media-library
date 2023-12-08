@@ -175,6 +175,7 @@
   transition: background-color 0.3s ease;
 }
 
+/*controls the position of the button*/
 #add-favorite {
   position: relative;
   bottom: 148px;
