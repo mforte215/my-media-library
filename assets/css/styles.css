@@ -102,7 +102,7 @@
   height: 100vh;
   background-color: #f5f5f5;
   padding-top: 5em;
-  font-size: 3em;
+  font-size: 2em;
 }
 
 .media-form {
@@ -115,3 +115,32 @@
   border-radius: 12px;
   box-shadow: 0.25px 0.25px 5px black;
 }
+
+#media-input {
+    font-size: 25px; /* Adjust the font size as needed */
+    width: 300px;    /* Adjust the width as needed */
+    height: 40px;
+}
+
+#media-type {
+    width: 200px; /* Adjust the width as needed */
+    height: 40px; /* Adjust the height as needed */
+    font-size: 25px; /* Adjust the font size as needed */
+}
+
+#search-button {
+    padding: 8px 16px;
+    background-color: #ff3b3b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#search-button:hover {
+    background-color: #d63030;
+}
+
+
