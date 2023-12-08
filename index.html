@@ -11,10 +11,10 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-custom" role="navigation" aria-label="main navigation">
+        <nav class="navbar is-fixed-top navbar-custom" role="navigation" aria-label="main navigation">
             <div class="navbar-brand">
-                <a class="navbar-item" href="https://bulma.io">
-                    <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+                <a class="navbar-item" href="#">
+                    <img class="navbar-custom-brand-logo" src="./assets/images/my-media-favorites-logo-v1.png">
                 </a>
                 <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
                     data-target="navbarBasicExample">
@@ -41,13 +41,12 @@
         <form class="media-form">
             <h1>My Media Favorites</h1>
             <div class="media-form-control-text">
-                <label for="media-input">Title</label>
+                <label for="media-input">Title:</label>
                 <input type="text" id="media-input" placeholder="Enter Title" />
             </div>
             <div class="media-form-control-select">
-                <label for="select-media">Media Type</label>
+                <label for="select-media">Media Type:</label>
                 <select name="select-media" id="media-type">
-                </select>
                 <option value="Movies">Movies</option>
                 <option value="Books">Books</option>
                 </select>
