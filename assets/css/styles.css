@@ -93,6 +93,13 @@
 
 .navbar-custom {
   width: 100%;
+  box-shadow: 0.25px 0.25px 5px black;
+  text-shadow: 4px 4px rgb(rgb(58, 58, 58), green, blue);
+  font-size: 1.75em;
+}
+
+.navbar-custom-brand-logo {
+  height: 1.75em;
 }
 
 /* Media Search Stylings */
