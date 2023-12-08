@@ -11,34 +11,25 @@
   padding: 40px;
 }
 
-.favorite-movies {
+.favorite-list {
   margin: 0 auto;
   max-width: 1200px;
   padding: 0 15px;
 }
 
-.favorites-list {
-}
-
-.container {
-}
-
-.favorite-movies-title {
+.favorite-item-title {
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 20px;
   color: #333;
 }
 
-.favorite-movie-list {
-}
-
-.favorite-movie-item {
+.favorite-item {
   display: flex;
   align-items: center;
 }
 
-.favorite-movie-list {
+.favorite-list {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -50,25 +41,25 @@
   padding-bottom: 20px;
 }
 
-.favorite-movie-details {
+.favorite-item-details {
   display: flex;
   align-items: center;
 }
 
-.favorite-movie-poster {
+.favorite-item-poster {
   width: 120px;
   height: 200px;
   margin-right: 20px;
 }
 
-.favorite-movie-title {
+.favorite-item-title {
   font-size: 24px;
   font-weight: bold;
   margin: 0;
   color: black;
 }
 
-.favorite-movie-year {
+.favorite-item-year {
   font-size: 18px;
   color: #888;
   margin: 5px 10px;
