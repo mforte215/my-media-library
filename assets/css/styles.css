@@ -106,10 +106,6 @@
   margin-right: 20%;
   border-radius: 12px;
   box-shadow: 0.25px 0.25px 5px black;
-  <<<<<<< HEAD
-}
-
-=======
 }
 
 #media-input {
@@ -143,6 +139,3 @@
 #search-button:hover {
   background-color: #d63030;
 }
-
-
->>>>>>>e3060c94d29cb49bdd41d008150e196998cb680b
