@@ -37,17 +37,23 @@
     </header>
 
 
-    <div class="Media-Search">
-        <h1>My Media Favorites</h1>
-        <label for="media-input">Title</label>
-        <input type = "text" id="media-input" placeholder="Enter Title">
-        <label for="select-media">Media Type</label>
-        <select name="select-media" id="media-type">
-            <option value="Movies">Movies</option>
-            <option value="Books">Books</option>
-            <br><br>
-        </select>
-        <button id="search-button">Search</button>
+    <div class="media-search-container">
+        <form class="media-form">
+            <h1>My Media Favorites</h1>
+            <div class="media-form-control-text">
+                <label for="media-input">Title</label>
+                <input type="text" id="media-input" placeholder="Enter Title" />
+            </div>
+            <div class="media-form-control-select">
+                <label for="select-media">Media Type</label>
+                <select name="select-media" id="media-type">
+                </select>
+                <option value="Movies">Movies</option>
+                <option value="Books">Books</option>
+                </select>
+            </div>
+            <button id="search-button">Search</button>
+        </form>
     </div>
 
     <section class="favorites">
