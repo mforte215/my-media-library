@@ -27,6 +27,7 @@
 .favorite-item {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .favorite-list {
@@ -36,8 +37,10 @@
 }
 
 .favorite-item-details {
+  width: 100%;
   display: flex;
   align-items: center;
+  /* justify-content: space-between; */
 }
 
 .favorite-item-poster {
@@ -68,6 +71,7 @@
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  margin-left: auto;
 }
 
 .remove-btn:hover {

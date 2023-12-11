@@ -47,8 +47,8 @@
             <div class="media-form-control-select">
                 <label for="select-media">Media Type:</label>
                 <select name="select-media" id="media-type">
-                <option value="Movies">Movies</option>
-                <option value="Books">Books</option>
+                    <option value="Movies">Movies</option>
+                    <option value="Books">Books</option>
                 </select>
             </div>
             <button id="search-button">Search</button>
@@ -116,6 +116,49 @@
 
         </div>
     </section>
+
+    <!-- BULMA MODAL -->
+
+    <div id="modal" class="modal is-active">
+        <div class="modal-background"></div>
+        <div class="modal-content">
+            <!-- elements -->
+            <div class="box">
+                <article class="media">
+                    <div class="media-left">
+                        <figure class="image is-64X64"><img src="https://bulma.io/images/placeholders/128x128.png"
+                                alt="Image"></figure>
+                    </div>
+                    <div class="media-content">
+                        <div class="content">
+                            <button class="modal-close is-large" aria-label="close"></button>
+                            <p>
+                                <strong class="modal-title">Interiors</strong>
+
+                                <small class="modal-year">1978</small>
+                                <br>
+                                <strong>Directed by: </strong><strong class="modal-director">Woody Allen</strong>
+                                <br>
+                                <strong>Starring: </strong><strong class="modal-actors">Kristin Griffith, Mary Beth
+                                    Hurt</strong>
+                            <p class="modal-description">When dominating interior designer Eve (Geraldine Page) and her
+                                husband,
+                                Arthur (E.G. Marshall), split
+                                after decades of marriage, it comes as a shock to their adult daughters -- tightly wound
+                                author
+                                Renata
+                                (Diane Keaton), struggling actress Joey (Mary Beth Hurt) and flighty Flyn (Kristin
+                                Griffith) -- as
+                                does
+                                Arthur's new romance with a vibrant artist</p>
+                            </p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+
 
     <script src="./assets/js/secrets.js"></script>
     <script src="./assets/js/script.js"></script>
