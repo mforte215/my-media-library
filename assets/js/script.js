@@ -480,6 +480,7 @@ const addBookToFavorites = (bookObject) => {
     console.log("LOGGING NEW MOVIE IN FAVORITES");
     console.log(bookObject);
     localStorage.setItem("book-" + bookObject.isbn, JSON.stringify(bookObject));
+    location.reload();
 }
 
 
