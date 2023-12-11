@@ -38,7 +38,7 @@
 
 
     <div class="media-search-container">
-        <form class="media-form">
+        <form id="search-form" class="media-form">
             <h1>My Media Favorites</h1>
             <div class="media-form-control-text">
                 <label for="media-input">Title:</label>
@@ -47,38 +47,26 @@
             <div class="media-form-control-select">
                 <label for="select-media">Media Type:</label>
                 <select name="select-media" id="media-type">
-                <option value="Movies">Movies</option>
-                <option value="Books">Books</option>
+                    <option value="Movies">Movies</option>
+                    <option value="Books">Books</option>
                 </select>
             </div>
-            <button id="search-button">Search</button>
+            <input type="submit" id="search-button" value="Search" />
         </form>
+        <div class="search-results">
+            <div class="message-display">
+                <h2 id="search-message">Enter a movie or book to begin adding</h2>
+            </div>
+        </div>
     </div>
 
     <section class="favorites">
-        <div class="container">
+        <div id="movies" class="container">
             <div id="favorite-movies" class="favorite-list">
                 <h1 class="favorite-item-title">Favorite Movies</h2>
-                    <ul class="favorite-list">
-                        <li class="favorite-item">
-                            <div class="favorite-item-details">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Black_square.jpg"
-                                    alt="Movie poster" class="favorite-item-poster">
-                                <p class="favorite-item-title">Interiors</p>
-                                <p class="favorite-item-year">1978</p>
-                                <button type="button" class="remove-btn">Remove</button>
-                            </div>
-                        </li>
+                    <ul id="movies-favorites" class="favorite-list"></ul>
 
-                        <li class="favorite-item">
-                            <div class="favorite-item-details">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Black_square.jpg"
-                                    alt="Movie poster" class="favorite-item-poster">
-                                <p class="favorite-item-title">Interiors</p>
-                                <p class="favorite-item-year">1978</p>
-                                <button type="button" class="remove-btn">Remove</button>
-                            </div>
-                        </li>
+                    </li>
 
                     </ul>
             </div>
@@ -88,28 +76,9 @@
         <!-- FAVORITE BOOKS -->
 
         <div class="container">
-            <div id="favorite-books" class="favorite-list">
+            <div id="books" class="favorite-list">
                 <h1 class="favorite-item-title">Favorite Books</h2>
-                    <ul class="favorite-list">
-                        <li class="favorite-item">
-                            <div class="favorite-item-details">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Black_square.jpg"
-                                    alt="Movie poster" class="favorite-item-poster">
-                                <p class="favorite-item-title">Do Androids Dream of Electric Sheep?</p>
-                                <p class="favorite-item-year">1968</p>
-                                <button type="button" class="remove-btn">Remove</button>
-                            </div>
-                        </li>
-
-                        <li class="favorite-item">
-                            <div class="favorite-item-details">
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Black_square.jpg"
-                                    alt="Movie poster" class="favorite-item-poster">
-                                <p class="favorite-item-title">Do Androids Dream of Electric Sheep?</p>
-                                <p class="favorite-item-year">1968</p>
-                                <button type="button" class="remove-btn">Remove</button>
-                            </div>
-                        </li>
+                    <ul id="books-favorites" class="favorite-list">
 
                     </ul>
             </div>
@@ -117,7 +86,6 @@
         </div>
     </section>
 
-    <script src="./assets/js/secrets.js"></script>
     <script src="./assets/js/script.js"></script>
 </body>
 
