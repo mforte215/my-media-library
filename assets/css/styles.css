@@ -103,7 +103,6 @@
   padding-top: 5em;
   padding-bottom: 2em;
   font-size: 2em;
-  min-height: 100vh;
 }
 
 .media-form {
@@ -293,4 +292,49 @@
 
 .modal-info-text {
   margin: 3%;
+}
+
+@media screen and (max-width: 968px) {
+  #media-input {
+    width: 80%;
+  }
+
+  .search-results {
+    width: 98%;
+    margin: 5% 1% 0 1%;
+  }
+
+  .movie-tile {
+    width: 98%;
+    margin: 0 0 5% 0;
+  }
+
+  .search-btn-container {
+    margin: 0.5em 0 1em 0;
+  }
+
+  .search-result-title {
+    margin-bottom: 0.5em;
+    font-size: 0.8em;
+  }
+
+  .info-favorite {
+    margin-bottom: 0.5em;
+  }
+
+  .search-result-poster {
+    object-fit: cover;
+  }
+
+  .title-poster-container {
+    width: 35%;
+  }
+
+  .modal-content {
+    width: 80%;
+  }
+
+  .favorite-list {
+    transform: scale(0.9);
+  }
 }

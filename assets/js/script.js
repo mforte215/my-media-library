@@ -543,7 +543,7 @@ const loadFavoriteBooks = async () => {
 
                 let newBookItemImage = document.createElement('img');
                 newBookItemImage.classList.add('favorite-item-poster');
-                newBookItemImage.alt = "Poster for the movie ";
+                newBookItemImage.alt = "Book cover for the book";
                 newBookItemImage.src = parsedBookData.coverURL;
 
                 let newBookParagraphOne = document.createElement('p');
@@ -570,26 +570,25 @@ const loadFavoriteBooks = async () => {
                 favoritesList.appendChild(newBookListItem);
 
             }
-            else {
-                if (foundFavoriteBooks <= 0) {
+        }
+
+        if (foundFavoriteBooks <= 0) {
 
 
-                    if (!document.getElementById("book-message-display")) {
-                        let messageDisplayMovieFavorite = document.createElement('p')
-                        messageDisplayMovieFavorite.textContent = "No favorite books selected. Please search and pick your favorites";
-                        messageDisplayMovieFavorite.id = "book-message-display";
-                        let favoritesList = document.querySelector('#books-favorites');
-                        favoritesList.append(messageDisplayMovieFavorite);
-                    }
-                }
+            if (!document.getElementById("book-message-display")) {
+                console.log("Creating message display in the first call");
+                let messageDisplayMovieFavorite = document.createElement('p')
+                messageDisplayMovieFavorite.textContent = "No favorite books selected. Please search and pick your favorites";
+                messageDisplayMovieFavorite.id = "book-message-display";
+                let favoritesList = document.querySelector('#books-favorites');
+                favoritesList.append(messageDisplayMovieFavorite);
             }
-
-
         }
     }
     else {
         console.log("FOUND NO Books");
         if (!document.getElementById("book-message-display")) {
+            console.log("Creating message display in the second call");
             let messageDisplayMovieFavorite = document.createElement('p')
             messageDisplayMovieFavorite.textContent = "No favorite books selected. Please search and pick your favorites";
             messageDisplayMovieFavorite.id = "book-message-display";
